@@ -46,7 +46,9 @@
 #define LOG(level, args)
 #endif
 
+#ifndef MAX
 #define MAX(_a, _b)   (((_a) > (_b)) ? (_a) : (_b))
+#endif
 
 /*
  * Ethernet
@@ -107,7 +109,7 @@ typedef struct VNetProcEntry {
 typedef struct proc_dir_entry VNetProcEntry;
 #endif
 
-typedef struct VNetJack VNetJack;
+typedef struct VNetJack VNetJack; a few options to ensur
 typedef struct VNetPort VNetPort;
 
 /*
