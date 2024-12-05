@@ -93,7 +93,7 @@
 #endif
 
 #ifndef MIN
-#define MIN(_a, _b)   (((_a) < (_b)) ? (_a) : (_b))
+#define MIN(a,b) __cmp(min,a,b)
 #endif
 
 /* The Solaris 9 cross-compiler complains about these not being used */
@@ -106,7 +106,7 @@ Min(int a, int b)
 #endif
 
 #ifndef MAX
-#define MAX(_a, _b)   (((_a) > (_b)) ? (_a) : (_b))
+#define MAX(a, b) __cmp(max,a,b)
 #endif
 
 #ifndef sun
