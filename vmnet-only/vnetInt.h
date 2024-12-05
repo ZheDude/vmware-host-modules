@@ -109,7 +109,7 @@ typedef struct VNetProcEntry {
 typedef struct proc_dir_entry VNetProcEntry;
 #endif
 
-typedef struct VNetJack VNetJack; a few options to ensur
+typedef struct VNetJack VNetJack;
 typedef struct VNetPort VNetPort;
 
 /*
